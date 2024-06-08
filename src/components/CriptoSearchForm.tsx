@@ -21,7 +21,7 @@ export const CriptoSearchForm = () => {
   return (
     <form className="form" onSubmit={handleSubmit(handleOnSubmit)}>
       <div className="field">
-        <label htmlFor="currency">Modeda:</label>
+        <label htmlFor="currency">Moneda:</label>
         <select
           className={
             errors.currency
@@ -47,7 +47,7 @@ export const CriptoSearchForm = () => {
         )}
       </div>
       <div className="field">
-        <label htmlFor="criptocurrency">Modeda:</label>
+        <label htmlFor="criptocurrency">Criptomoneda:</label>
         <select
           className={
             errors.criptocurrency
